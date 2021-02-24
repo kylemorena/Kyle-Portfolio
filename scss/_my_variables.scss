@@ -1,0 +1,21 @@
+$theme-colors:(
+  "primary":    #B4C0B6,
+  "secondary":  #85A693,
+  "success":    #5D7366,
+  "info":       #262626,
+  "warning":    #231F20,
+  "danger":     #181818,
+  "light":      #E4E4E4,
+  "dark":       #0D0D0D
+);
+
+$structure-bgs: (
+  "first":  #326792,
+  "second": #6B8338,
+  "third": #88857A
+);
+
+
+$body-bg: #0D0D0D;
+$font-family-sans-serif: Roboto,"Segoe UI", san-serif;
+$enable-responsive-font-sizes:true;

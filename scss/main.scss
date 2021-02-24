@@ -1,0 +1,9 @@
+//Custom scss
+@import "my_variables";
+@import "functions";
+
+//Import bootstrap css needed
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+//Custom scss
+@import "custom";

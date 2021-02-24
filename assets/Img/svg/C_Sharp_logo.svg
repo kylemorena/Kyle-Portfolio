@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="124.408" height="140" viewBox="0 0 124.408 140">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Path_5" data-name="Path 5" d="M119.021,30.975,67.591,1.282a11.949,11.949,0,0,0-10.774,0L5.387,30.975A11.951,11.951,0,0,0,0,40.306V99.693a11.791,11.791,0,0,0,5.387,9.33l51.43,29.693a11.949,11.949,0,0,0,10.774,0l51.43-29.693a11.568,11.568,0,0,0,5.387-9.33V40.306a12.21,12.21,0,0,0-5.387-9.331Z" transform="translate(0 0.001)" fill="#fff"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0.342" y1="0.303" x2="0.826" y2="0.908" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#3b009b"/>
+      <stop offset="1" stop-color="#390086"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.279" y1="0.356" x2="0.544" y2="0.89" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#340084"/>
+      <stop offset="1" stop-color="#290064"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="0.29" y1="0.168" x2="0.561" y2="0.597" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#a47ede"/>
+      <stop offset="1" stop-color="#9866d3"/>
+    </linearGradient>
+  </defs>
+  <g id="C_Sharp_logo" transform="translate(0 0.001)">
+    <g id="Group_1" data-name="Group 1" transform="translate(0 -0.001)" clip-path="url(#clip-path)">
+      <path id="Path_2" data-name="Path 2" d="M222.588,124.487h73.134V199.27H222.588Z" transform="translate(-161.724 -90.447)" fill="url(#linear-gradient)"/>
+      <path id="Path_3" data-name="Path 3" d="M112.266,263.091,18.147,208.63H-29.911v90.158H112.266Z" transform="translate(21.732 -151.583)" fill="url(#linear-gradient-2)"/>
+      <path id="Path_4" data-name="Path 4" d="M-29.911,100.223,112.266,17.95V-14.513H-29.911Z" transform="translate(21.732 10.545)" fill="url(#linear-gradient-3)"/>
+    </g>
+    <path id="Path_6" data-name="Path 6" d="M75.828,141.265c-.284-35.87,62.936-51.709,90.2-18.379l-20.92,9.2c-12.629-15.874-43.985-10.2-45.11,9.179.338,17.859,31.157,26.154,45.112,9.178l20.92,9.2C142,191.34,77.04,179.936,75.828,141.265Zm79.736-10.416h3.984l-2.722,19.983h-4.059Zm8.534,0h3.984l-2.722,19.983H161.3Zm-13,4.746h19.921v2.924H151.1Zm-1.116,7.123h19.921v2.924H149.987Z" transform="translate(-61.656 -71.255)" fill="#fff"/>
+  </g>
+</svg>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="99.192" height="139.984" viewBox="0 0 99.192 139.984" fill="#fff">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #e44d26;
+      }
+
+      .cls-2 {
+        fill: #f16529;
+      }
+
+      .cls-3 {
+        fill: #ebebeb;
+      }
+
+      .cls-4 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="HTML5_logo_and_wordmark" transform="translate(-74.6)">
+    <path id="Path_18" data-name="Path 18" d="M108.4,0h6.288V6.234h5.8V0h6.288V18.865h-6.288V12.577h-5.742v6.288H108.4M135.085,6.288h-5.55V0H146.95V6.288h-5.577V18.865h-6.288M149.712,0H156.3l4.046,6.644L164.394,0h6.589V18.865h-6.288V9.515l-4.4,6.78-4.4-6.78v9.351h-6.179M174.1,0h6.288V12.631H189.3v6.234H174.1" transform="translate(-24.559)"/>
+    <path id="Path_19" data-name="Path 19" class="cls-1" d="M83.622,201.87,74.6,100.6h99.192L164.77,201.815,124.114,213.08" transform="translate(0 -73.095)"/>
+    <path id="Path_20" data-name="Path 20" class="cls-2" d="M256,226.556V131h40.546l-7.737,86.4" transform="translate(-131.804 -95.184)"/>
+    <path id="Path_21" data-name="Path 21" class="cls-3" d="M142,176.3h31.168v12.413H155.616l1.148,12.713h16.4v12.385H145.39m.547,6.234H158.4l.875,9.925,13.889,3.718v12.959l-25.482-7.109" transform="translate(-48.972 -128.098)"/>
+    <path id="Path_22" data-name="Path 22" class="cls-4" d="M286.914,176.3H255.8v12.413h29.965m-1.121,12.713H255.8v12.413h15.311l-1.449,16.131L255.8,233.688v12.9l25.427-7.054" transform="translate(-131.659 -128.098)"/>
+  </g>
+</svg>

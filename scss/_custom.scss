@@ -1,0 +1,323 @@
+html {
+  scroll-behavior: smooth;
+}
+
+/*#region Navbar*/ 
+.navbar-custom{
+  border-bottom: 0.4rem solid transparent;
+  -webkit-transition: all 500ms ease;
+  transition: border-bottom 500ms ease;
+  .nav-link {
+    font-weight:700;
+    color: theme-color("secondary");
+    @include hover{
+      color:theme-color("primary");
+    }
+  }
+  .active a{
+    color:color("white")
+  }
+
+  /* Menu Icon */
+  .navbar-toggler {
+    .navbar-toggler-icon{
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='RGB(133, 166, 147)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");}
+    border-color: theme-color("secondary");
+    outline:none;
+  }
+  .navbar-toggler:hover{
+    border:0.2rem solid theme-color("primary");
+  }
+
+  .navbar-toggler:focus{
+    border: 0.2rem solid $gray-300;
+  }
+}
+.sticky-top.scrolled{
+  border-color: theme-color("success");
+}
+/*#endregion*/
+
+/*#region Hero About,Projects and Skills*/
+.title-hero-highlights::after{
+  background-color: theme-color("danger");
+  content: " ";
+  border-radius: .15rem;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 35%;
+  z-index: -1;
+}
+.title-hero-highlights{
+  z-index: 1;
+}
+.title-hero-size{
+  font-size: 4.3vmax;
+}
+
+.bg-circle-secondary{
+  background-color: theme-color("secondary");
+  position: relative;
+  height: 24vmax;
+  width: 24vmax;
+}
+
+.quadrato{
+  right: 3.4vmax;
+  bottom: 0;
+  border-radius: 0.1rem;
+  height: 2vmax;
+  width: 2vmax;
+  z-index: -1;
+}
+.rettangolo{
+  right: 14vmax;
+  bottom: 0;
+  border-radius: 0.1rem;
+  height: 1.3vmax;
+  width: 23vmax;
+  z-index: -1;
+}
+/*#endregion*/
+
+/*#region Index page*/
+  /*Button position*/
+  .position-custom{
+    position: relative;
+    bottom: 1rem;
+    .btn{
+      font-weight: 700;
+    }
+  }
+  /*Project Redesign img-card*/
+  .xbox-grid-images{
+    padding: 0;
+    border: 0;
+    display:grid;
+    grid-template-columns:1rem auto auto auto 1rem;
+    grid-template-rows: auto auto auto 1rem;
+    .image-item:first-of-type{
+      grid-column: 1 / span 4;
+      grid-row: 1 / span 4;
+    }
+    .image-item:last-of-type{
+      grid-column: 2 / span 4;
+      grid-row: 4 / span 4;
+    }
+  }
+  /*Skills bg half highlights*/
+  .bg-half-container::after{
+    background-color:theme-color("danger");
+    border-radius: .25rem;
+    content:" ";
+    position:absolute;
+    width:100%;
+    height:66%;
+    right:0;
+    bottom:0;
+    z-index:-1;
+  }
+  .bg-half-container{
+    z-index:0;
+  }
+/*#endregion*/
+
+/*#region Contacts*/
+  /*Socials*/
+  .fab{
+    color: theme-color("secondary");
+    font-size: 2rem;
+    width: 3rem;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 1rem;
+  }
+  /*Form*/
+  .form-control{
+    color: $gray-200;
+    border: 0.15rem solid theme-color("secondary");
+    background-color: transparent;
+    
+  }
+  .form-control:focus{
+    color: $gray-300;
+    border-color: theme-color("secondary");
+    background-color:  theme-color("danger");
+  }
+  input.form-control:-webkit-autofill,
+  input.form-control:-webkit-autofill:hover, 
+  input.form-control:-webkit-autofill:focus,
+  textarea.form-control:-webkit-autofill,
+  textarea.form-control:-webkit-autofill:hover,
+  textarea.form-control:-webkit-autofill:focus,
+  select.form-control:-webkit-autofill,
+  select.form-control:-webkit-autofill:hover,
+  select.form-control:-webkit-autofill:focus {
+    border: 0.15rem solid theme-color("primary");
+    -webkit-text-fill-color: theme-color("primary");
+    transition: background-color 5000s ease-in-out 0s;
+  }
+/*#endregion*/
+
+/*#region About page*/
+  /*Picture bg overlap*/
+  .bg-overlap-grid{
+    display:grid;
+    grid-template-columns:0.938rem auto 0.938rem;
+    grid-template-rows: 0.938rem auto 0.938rem;
+    .image-item{
+      grid-column:1 / span 2;
+      grid-row: 1 / span 2;
+    }
+    .bg-item{
+      width: 100%;
+      height: 100%;
+      grid-column: 2 / span 2;
+      grid-row: 2 / span 2;
+    }
+  }
+  /*Underline custom*/
+  .underline-custom{
+    width: 100%;
+    height: 0.4rem;
+    border-radius: 0.1rem;
+  }
+  /*Timeline*/
+  .timeline{
+    width: 0.8rem;
+    height: 5rem;
+    border-radius: 0.3rem;
+  }
+/*#endregion*/
+
+/*#region Projecs page*/
+  /*Carousel*/
+  .carousel{
+    border-radius: 0.15rem;
+  }
+  /*Side project */
+  .panoramica-border{
+    border: 0.5rem solid theme-color("warning");
+    border-radius: 0.3rem;
+  }
+  /*background modelli3D*/
+  .bg-blue-custom{
+    background-color: structure-bg("first");
+  }
+  .bg-green-custom{
+    background-color: structure-bg("second");
+  }
+  .bg-beige-custom{
+    background-color: structure-bg("third");
+  }
+/*#endregion*/
+
+/*#region Skills page*/
+  /*Progress bar*/
+  .progress-bar::after{
+    background-color: $gray-100;
+    content: "";
+    border-radius: 50%;
+    position: absolute;
+    right: 0;
+    bottom: inherit/2;
+    width: 1.4rem;
+    height: 1.4rem;
+  }
+  .progress,.progress-bar{
+    border-radius: 1rem;
+  }
+  .overflow-visible{
+    overflow: visible;
+  }
+/*#endregion*/
+
+/*#region General elements*/
+  /*Title half highlights*/
+  .bg-half-title::after{
+    background-color: theme-color("secondary");
+    content: " ";
+    border-radius: .15rem;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 38%;
+    z-index: -1;
+    transition: height 500ms;
+    transition-timing-function: ease;
+  }
+
+  a.hover-transition:hover{  
+    text-decoration: none;
+    color:$gray-100;
+    .bg-half-title::after{
+      background-color: theme-color("secondary");
+      content: " ";
+      border-radius: .15rem;
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+    }
+  }
+  /*Heading*/
+  h1.h1{
+    color: color("white");
+    font-weight: 900;
+  }
+  h2.h2{
+    font-weight:600;
+  }
+  h3.h3{
+    font-weight:400;
+  }
+  /*Paragraph*/
+  .lead::first-letter{
+    text-transform: uppercase;
+  }
+  .lead{
+    font-weight:400;
+  }
+  .blockquote::before {
+    content: '\a'; 
+    white-space: pre;
+  }
+  .p-white{
+    font-style: normal;
+    font-weight: 400;
+    color:$gray-200;
+  }
+  /*Shadow custom*/
+  .shadow-custom{
+    border-radius: .3rem;
+    box-shadow:0rem 0.4rem 0.8rem theme-color("dark");
+  }
+/*#endregion*/
+
+/*#region Media Query custom*/
+@include media-breakpoint-only(lg){
+  p.bio-font-size{
+    font-size: large;
+  }
+}
+@media (max-width: 992px) { 
+  .rounded-custom{
+    border-radius: .25rem;
+  }
+  .hello-size{
+    font-size: 2.86rem; 
+  }
+}
+@media (min-width: 992px) { 
+  .rounded-custom{
+    border-radius: .25rem 0 0 .25rem;
+  }
+}
+/*#endregion*/
+
+// sass --watch scss/main.scss:css/main.css
