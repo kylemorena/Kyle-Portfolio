@@ -212,6 +212,27 @@ html {
   .bg-beige-custom{
     background-color: structure-bg("third");
   }
+
+  .mobile-bookmarks{
+    height: 400px;
+    border: 2px solid #E8505B;
+    border-radius: 0.3rem;
+  }
+  .bookmarks{
+    border: 2px solid #E8505B;
+    box-shadow: 0px 3px 8px  #E8505B;
+  }
+  .hover-bookmarks:hover::after{
+    content: '';
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background: rgba(249,213,215,0.4);
+    border-radius: 0.3rem;
+  }
 /*#endregion*/
 
 /*#region Skills page*/
